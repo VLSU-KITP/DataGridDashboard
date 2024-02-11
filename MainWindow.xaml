@@ -192,7 +192,7 @@
                         </DataGridCheckBoxColumn>
 
                         <DataGridTextColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="40" Binding="{Binding Number}"/>
-                        <DataGridTemplateColumn Header="Сотрудник" IsReadOnly="True" Width="190">
+                        <DataGridTemplateColumn Header="Сотрудник" IsReadOnly="True" Width="210">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
@@ -206,7 +206,7 @@
                         </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Должность" IsReadOnly="True" Width="*" Binding="{Binding Position}"/>
                         <DataGridTextColumn Header="Email" IsReadOnly="True" Width="*" Binding="{Binding Email}"/>
-                        <DataGridTextColumn Header="Телефон" IsReadOnly="True" Width="120" Binding="{Binding Phone}"/>
+                        <DataGridTextColumn Header="Телефон" IsReadOnly="True" Width="100" Binding="{Binding Phone}"/>
 
                         <DataGridTemplateColumn Header="Операции" IsReadOnly="True" Width="100">
                             <DataGridTemplateColumn.CellTemplate>
