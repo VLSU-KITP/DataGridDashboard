@@ -1,4 +1,5 @@
 # DataGridDashboard
+[![.NET](https://github.com/VLSU-KITP/DataGridDashboard/actions/workflows/dotnet.yml/badge.svg)](https://github.com/VLSU-KITP/DataGridDashboard/actions/workflows/dotnet.yml)
 ## Простое приложение демонстрирующее работу с пакетом иконок Mahapps.Metro.Iconpacks.Material
 Студентам необходимо доработать данный проект до состояния: 
 1. Работают все кнопки слева (могут открыться пустыми но переход работать)
