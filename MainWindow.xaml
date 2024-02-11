@@ -107,7 +107,7 @@
 
                         </StackPanel>
 
-                        <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15 0 15 20">
+                        <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15 0 15 20" Click="Button_Click">
                             <StackPanel Orientation="Horizontal">
                                 <Icon:PackIconMaterial Kind="Logout" Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Logout"/>
@@ -191,8 +191,8 @@
                             </DataGridCheckBoxColumn.HeaderTemplate>
                         </DataGridCheckBoxColumn>
 
-                        <DataGridTextColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="auto" Binding="{Binding Number}"/>
-                        <DataGridTemplateColumn Header="Member" IsReadOnly="True" Width="*">
+                        <DataGridTextColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="40" Binding="{Binding Number}"/>
+                        <DataGridTemplateColumn Header="Member" IsReadOnly="True" Width="190">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
@@ -206,9 +206,9 @@
                         </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Position" IsReadOnly="True" Width="*" Binding="{Binding Position}"/>
                         <DataGridTextColumn Header="Email adress" IsReadOnly="True" Width="*" Binding="{Binding Email}"/>
-                        <DataGridTextColumn Header="Phone Number" IsReadOnly="True" Width="*" Binding="{Binding Phone}"/>
+                        <DataGridTextColumn Header="Phone Number" IsReadOnly="True" Width="120" Binding="{Binding Phone}"/>
 
-                        <DataGridTemplateColumn Header="Operations" IsReadOnly="True" Width="*">
+                        <DataGridTemplateColumn Header="Operations" IsReadOnly="True" Width="100">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">

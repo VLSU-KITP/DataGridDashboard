@@ -27,7 +27,7 @@ namespace DataGridDashboard
                 //Create DataGrid Items Info
                 new Member { Number = "1", Character = "J", BgColor = converter.ConvertFromString("#1098ad") as Brush, Name = "Иван Иванов", Position = "Менеджер", Email = "ivanov@name.com", Phone = "123-456" },
                 new Member { Number = "2", Character = "K", BgColor = converter.ConvertFromString("#1e88e5") as Brush, Name = "Петр Петров", Position = "Глава департамента", Email = "petrov@name.com", Phone = "234-567" },
-                new Member { Number = "3", Character = "M", BgColor = converter.ConvertFromString("#dff8f00") as Brush, Name = "Антон Сидоров", Position = "Директор", Email = "sidorov@name.com", Phone = "345-678" },
+                new Member { Number = "3", Character = "M", BgColor = converter.ConvertFromString("#dff8f0") as Brush, Name = "Антон Сидоров", Position = "Директор", Email = "sidorov@name.com", Phone = "345-678" },
                 new Member { Number = "4", Character = "N", BgColor = converter.ConvertFromString("#ff5252") as Brush, Name = "Владимир Набоков", Position = "Менеджер", Email = "nabokov@name.com", Phone = "456-789" },
                 new Member { Number = "5", Character = "T", BgColor = converter.ConvertFromString("#0ca678") as Brush, Name = "Александр Пушкин", Position = "Инженер", Email = "pushkin@name.com", Phone = "567-890" },
                 new Member { Number = "6", Character = "L", BgColor = converter.ConvertFromString("#6741d9") as Brush, Name = "Александр Грибоедов", Position = "Программист", Email = "griboedov@name.com", Phone = "987-654" },
@@ -89,6 +89,11 @@ namespace DataGridDashboard
                 }
             }
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 
