@@ -151,7 +151,7 @@
 
                 <!--Page Title-->
                 <TextBlock Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="0 20 0 0"
-                           HorizontalAlignment="Left" Foreground="#121518"><Run Language="ru-ru" Text="Список"/></TextBlock>
+                           HorizontalAlignment="Left" Foreground="#121518"><Run Text="Список"/><Run Language="ru-ru" Text=" сотрудников"/><Run Text=" "/></TextBlock>
                 <!--Add button-->
                 <Button Style="{StaticResource addButton}">
                     <StackPanel Orientation="Horizontal">
