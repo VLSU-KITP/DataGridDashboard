@@ -1,0 +1,75 @@
+﻿<Window x:Class="DataGridDashboard.WindowNewEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGridDashboard"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type= local:Member}"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Title="Новый сотрудник" Height="600" Width="460"
+        Background="Transparent" WindowStartupLocation="CenterOwner"
+         WindowStyle="None" AllowsTransparency="True"
+        ResizeMode="NoResize">
+    <Border Background="#eff2f7" CornerRadius="30" BorderBrush="#623ed0" BorderThickness="5" MouseDown="Border_MouseDown">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="#:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20"/>
+            <TextBox Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Left"
+                      Width="200" Margin="10 0 0 0" Text="{Binding Number}" FontSize="20" Style="{StaticResource textBox}"/>
+
+
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Символ:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20"/>
+            <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"
+          Width="200" Margin="10 0 0 0" Text="{Binding Character}" MaxLength="1" FontSize="20" Style="{StaticResource textBox}"/>
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Цвет:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20"/>
+            <xctk:ColorPicker x:Name="Color_Picker" Grid.Row="2" Grid.Column="1"
+                              HorizontalAlignment="Left" VerticalAlignment="Center" Width="90" Height="60" Margin="10 0 0 0" 
+                              BorderBrush="#784ff2"/>
+
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Имя и фамилия:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20" 
+                       TextWrapping="Wrap" TextAlignment="Center"/>
+            <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"
+                        Width="200" Margin="10 0 0 0" Text="{Binding Name}" FontSize="20" Style="{StaticResource textBox}"/>
+
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Должность:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20"/>
+            <TextBox Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" 
+                        Width="200" Margin="10 0 0 0" Text="{Binding Position}" FontSize="20" Style="{StaticResource textBox}"/>
+
+            <TextBlock Grid.Row="5" Grid.Column="0" Text="Email:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20"/>
+            <TextBox Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" 
+                        Width="200" Margin="10 0 0 0" Text="{Binding Email}" FontSize="20" Style="{StaticResource textBox}"/>
+
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="Номер телефона:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20"/>
+            <TextBox Grid.Row="6" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Left" 
+                        Width="200" Margin="10 0 0 0" Text="{Binding Phone}" FontSize="20" Style="{StaticResource textBox}"/>
+
+            <StackPanel Grid.Row="7" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 0 15 10">
+                <Button Content="Отмена" VerticalAlignment="Center" Margin="0 0 10 0" Width="110" Height="45" FontSize="20" IsCancel="True" 
+                        Style="{StaticResource addButton}"/>
+
+
+                <Button Content="Сохранить" VerticalAlignment="Center" Margin="10 0 0 0" Width="110" Height="45" FontSize="20"
+                        Style="{StaticResource addButton}"
+                        Click="Button_Click"/>
+
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window>
