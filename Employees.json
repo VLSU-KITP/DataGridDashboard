@@ -1,0 +1,47 @@
+[
+  {
+    "Character": "I",
+    "Number": "1",
+    "Name": "Иван Иванов",
+    "Position": "Менеджер",
+    "Email": "ivanov@name.com",
+    "Phone": "123-456",
+    "BgColor": "#FF1098AD"
+  },
+  {
+    "Character": "P",
+    "Number": "2",
+    "Name": "Петр Петров",
+    "Position": "Глава департамента",
+    "Email": "petrov@name.com",
+    "Phone": "234-567",
+    "BgColor": "#FF1E88E5"
+  },
+  {
+    "Character": "S",
+    "Number": "3",
+    "Name": "Антон Сидоров",
+    "Position": "Директор",
+    "Email": "sidorov@name.com",
+    "Phone": "345-678",
+    "BgColor": "#FF50F8F7"
+  },
+  {
+    "Character": "N",
+    "Number": "4",
+    "Name": "Владимир Набоков",
+    "Position": "Менеджер",
+    "Email": "nabokov@name.com",
+    "Phone": "456-789",
+    "BgColor": "#FFFF5252"
+  },
+  {
+    "Character": "P",
+    "Number": "5",
+    "Name": "Александр Пушкин",
+    "Position": "Инженер",
+    "Email": "pushkin@name.com",
+    "Phone": "567-890",
+    "BgColor": "#FF0CA678"
+  }
+]
