@@ -43,5 +43,50 @@
     "Email": "pushkin@name.com",
     "Phone": "567-890",
     "BgColor": "#FF0CA678"
+  },
+  {
+    "Character": "G",
+    "Number": "6",
+    "Name": "Александр Грибоедов",
+    "Position": "Программист",
+    "Email": "griboedov@name.com",
+    "Phone": "987-654",
+    "BgColor": "#FF6741D9"
+  },
+  {
+    "Character": "N",
+    "Number": "7",
+    "Name": "Александр Невский",
+    "Position": "Дизайнер",
+    "Email": "nevski@name.com",
+    "Phone": "876-543",
+    "BgColor": "#FFFF6D00"
+  },
+  {
+    "Character": "G",
+    "Number": "8",
+    "Name": "Иван Грозный",
+    "Position": "Секретарь",
+    "Email": "grozny@name.com",
+    "Phone": "765-432",
+    "BgColor": "#FFFF5252"
+  },
+  {
+    "Character": "R",
+    "Number": "9",
+    "Name": "Петр Романов",
+    "Position": "Юрист",
+    "Email": "romanov@name.com",
+    "Phone": "654-321",
+    "BgColor": "#FF1E88E5"
+  },
+  {
+    "Character": "L",
+    "Number": "10",
+    "Name": "Владимир Ленин",
+    "Position": "Всегда живой",
+    "Email": "lenin@name.com",
+    "Phone": "666-666",
+    "BgColor": "#FF0CA678"
   }
 ]
